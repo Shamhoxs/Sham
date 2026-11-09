@@ -1,4 +1,6 @@
+using Core.Interfaces.Repositories;
 using Infrastructure.Persistence;
+using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,6 +24,8 @@ public static class DependencyInjection
 
         services.AddDbContext<ApplicationDbContext>(options =>
             options.UseMySQL(connectionString));
+
+        services.AddScoped<IProjectRepository, ProjectRepository>();
 
         return services;
     }

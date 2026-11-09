@@ -13,3 +13,4 @@ C:\Users\admin\Documents\ProjectsAll\Sham\Identity\obj\Debug\net10.0\Identity.dl
 C:\Users\admin\Documents\ProjectsAll\Sham\Identity\obj\Debug\net10.0\refint\Identity.dll
 C:\Users\admin\Documents\ProjectsAll\Sham\Identity\obj\Debug\net10.0\Identity.pdb
 C:\Users\admin\Documents\ProjectsAll\Sham\Identity\obj\Debug\net10.0\ref\Identity.dll
+C:\Users\admin\Documents\ProjectsAll\Sham\Identity\obj\Debug\net10.0\Identity.sourcelink.json
